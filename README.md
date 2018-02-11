@@ -17,8 +17,9 @@ Example alphabets that could be used for the source and target strings can be fo
 e.g.
 
 ```js
-   base_conversion-spec.js('1111', Alphabet.BINARY, Alphabet.HEXADECIMAL)  // should return 'F'
+   base_conversion-spec.js('15', Alphabet.DECIMAL, Alphabet.BINARY)  // should return '1111'
    base_conversion-spec.js('1111', Alphabet.BINARY, Alphabet.DECIMAL)  // should return '15'
+   base_conversion-spec.js('1111', Alphabet.BINARY, Alphabet.HEXADECIMAL)  // should return 'F'
 ```
 
 ## Install and Get Started
