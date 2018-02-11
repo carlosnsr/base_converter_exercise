@@ -1,11 +1,13 @@
 # Exercise: Write a Base Converter
 
-Your task is to write a function that converts from one base to another base.
+Your task is to write a function that converts any number from one base to another base.
 
 The function will take:
-  - a input string, representing the number/string to convert
-  - a source string, containing the alphabet that the input string is written in (e.g. binary)
-  - a target string, containing the alphabet that the output string should be written in (e.g. hexademical)
+  - an input string, representing the number/string to convert
+  - a source string, containing the alphabet that the input string is written in 
+    (e.g. the alphabet for Binary is '01')
+  - a target string, containing the alphabet that the output string should be written in 
+    (e.g. the alphabet for Demical is '0123456789'
 
 The function should output:
   - a string, that has the same value as the input string, but in the target alphabet
